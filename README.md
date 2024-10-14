@@ -1,6 +1,5 @@
 # Learning-Rust
-This repo contains the notes I took while learning the Rust programming language, the sample Rust programs I wrote, and the exercises. Don't hesitate to contribute and fork the repo.
-
+This repo contains the notes I took while learning the Rust programming language.
 
 # First Steps
 ## installation
@@ -10,9 +9,9 @@ rustup update
 rustc --version
 
 ### creating project with cargo
-cargo new hello_cargo
+cargo new hello_cargo # for new hello world program
 cd hello_cargo
 
 ### compile and run cargo project 
-cargo build
+cargo build  
 ./target/debug/hello_cargo
